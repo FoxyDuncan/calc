@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="case">
+        <h3>calculator</h3>
+            <input type="text" id="display" placeholder="0+1=1">
+            <input type="submit" value="1" class="ns" onclick="print('1')">
+            <input type="submit" value="2" class="ns" onclick="print('2')">
+            <input type="submit" value="3" class="ns" onclick="print('3')">
+            <input type="submit" value="4" class="ns" onclick="print('4')">
+            <input type="submit" value="5" class="ns" onclick="print('5')">
+            <input type="submit" value="6" class="ns" onclick="print('6')">
+            <input type="submit" value="7" class="ns" onclick="print('7')">
+            <input type="submit" value="8" class="ns" onclick="print('8')">
+            <input type="submit" value="9" class="ns" onclick="print('9')">
+            <input type="submit" value="0" class="ns"  onclick="print('0')">
+            <input type="submit" value="+" class="ns"  onclick="print('+')">
+            <input type="submit" value="x" class="ns" onclick="print('*')">
+            <input type="submit" value="-" class="ns" onclick="print('-')">
+            <input type="submit" value="=" class="ns" onclick="equal('=')">
+            <input type="submit" value="clear" class="ns" onclick="clr()">
+            <input type="submit" value="copy" class="ns" onclick="copy()">
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
